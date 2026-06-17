@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ekhsan Fitri — Business, AI & Product-Minded Builder. BBA (Hons) AI student building practical tools for procurement, analytics, and learning.">
+    <title>Ekhsan Fitri — AI · Procurement · Build</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">EF<span class="dot">.</span></a>
+            <div class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                <span class="sun">☀️</span>
+                <span class="moon">🌙</span>
+            </button>
+            <button class="mobile-menu-btn" id="mobile-menu-btn">☰</button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <p class="hero-eyebrow">👋 Hello, I'm</p>
+            <h1 class="hero-title">Ekhsan Fitri</h1>
+            <div class="hero-typing">
+                <span class="static-text">I build</span>
+                <span class="dynamic-text" id="typing-text"></span>
+                <span class="cursor">|</span>
+            </div>
+            <p class="hero-desc">
+                Final-year BBA (Hons) student majoring in AI. Building practical tools for procurement, analytics, and learning — one project at a time.
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Get In Touch</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat"><span class="stat-num">25+</span><span class="stat-label">Projects</span></div>
+                <div class="stat"><span class="stat-num">5</span><span class="stat-label">Flagship Apps</span></div>
+                <div class="stat"><span class="stat-num">1yr</span><span class="stat-label">Industry Exp</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">About Me</span>
+                <h2>From procurement floor to AI builder</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        I'm a final-year <strong>BBA (Hons) Artificial Intelligence</strong> student at UniRazak KL, currently working as a Project Admin in procurement at <strong>Universal Cellular Engineering Services (UCES)</strong>.
+                    </p>
+                    <p>
+                        My unique position — standing at the intersection of <strong>business operations</strong> and <strong>AI technology</strong> — lets me see problems others miss. I don't just learn AI; I apply it to real procurement workflows.
+                    </p>
+                    <p>
+                        When I'm not building tools or analyzing data, you'll find me experimenting with Python, playing with Pygame, or learning the next thing on my journey from zero to AI practitioner.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight"><span>🎓</span> BBA (Hons) AI · 2026</div>
+                        <div class="highlight"><span>🏢</span> UCES Procurement</div>
+                        <div class="highlight"><span>📍</span> Kuala Lumpur, MY</div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="skill-bars">
+                        <div class="skill-bar-item">
+                            <div class="skill-info"><span>Python</span><span>85%</span></div>
+                            <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-info"><span>Streamlit</span><span>80%</span></div>
+                            <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-info"><span>SQL & Data</span><span>75%</span></div>
+                            <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-info"><span>Machine Learning</span><span>65%</span></div>
+                            <div class="skill-bar"><div class="skill-fill" style="width:65%"></div></div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-info"><span>Web Dev</span><span>60%</span></div>
+                            <div class="skill-bar"><div class="skill-fill" style="width:60%"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Featured Work</span>
+                <h2>Projects I've built</h2>
+                <p>Each project solves a real problem or demonstrates a skill.</p>
+            </div>
+            <div class="project-grid">
+                <article class="project-card featured">
+                    <div class="project-badge">⭐ Flagship</div>
+                    <h3>🤖 AI Procurement Assistant</h3>
+                    <p>Upload procurement data, get instant AI-powered insights, vendor risk scoring, and natural language Q&A. Works with or without OpenAI API.</p>
+                    <div class="project-tech"><span>Streamlit</span><span>pandas</span><span>OpenAI</span><span>Plotly</span></div>
+                    <a href="https://github.com/EkhsanFitri94/ai-procurement-assistant" class="project-link" target="_blank">GitHub →</a>
+                </article>
+
+                <article class="project-card featured">
+                    <div class="project-badge">⭐ Flagship</div>
+                    <h3>🇲🇾 Malaysia Jobs Analytics</h3>
+                    <p>Full data pipeline: scrape → clean → analyze → visualize. Salary benchmarks, skill demand, and market insights for Malaysian job seekers.</p>
+                    <div class="project-tech"><span>BeautifulSoup</span><span>Streamlit</span><span>Plotly</span><span>pandas</span></div>
+                    <a href="https://github.com/EkhsanFitri94/malaysia-jobs-analytics" class="project-link" target="_blank">GitHub →</a>
+                </article>
+
+                <article class="project-card">
+                    <h3>💰 DebtFree Finance Tracker</h3>
+                    <p>Full-stack personal finance app — FastAPI backend + Streamlit frontend + SQLite. Track income, expenses, budgets, and savings.</p>
+                    <div class="project-tech"><span>FastAPI</span><span>Streamlit</span><span>SQLAlchemy</span><span>SQLite</span></div>
+                    <a href="https://github.com/EkhsanFitri94/debtfree-tracker" class="project-link" target="_blank">GitHub →</a>
+                </article>
+
+                <article class="project-card">
+                    <h3>🎯 AI Resume Analyzer</h3>
+                    <p>Upload resume + job description → match score, missing skills, ATS keyword optimization, and AI coaching tips.</p>
+                    <div class="project-tech"><span>NLP</span><span>TF-IDF</span><span>OpenAI</span></div>
+                    <a href="https://github.com/EkhsanFitri94/resume-analyzer" class="project-link" target="_blank">GitHub →</a>
+                </article>
+
+                <article class="project-card">
+                    <h3>📈 Procurement Forecaster</h3>
+                    <p>ML time-series forecasting with 3 ensemble models. Predict future procurement spend with confidence bands.</p>
+                    <div class="project-tech"><span>scikit-learn</span><span>Random Forest</span><span>GBM</span></div>
+                    <a href="https://github.com/EkhsanFitri94/procurement-forecaster" class="project-link" target="_blank">GitHub →</a>
+                </article>
+
+                <article class="project-card">
+                    <h3>📊 UCES Margin Analyzer</h3>
+                    <p>Margin analysis tool for UCES procurement — Excel upload, auto-calculation, color-coded health alerts.</p>
+                    <div class="project-tech"><span>Streamlit</span><span>pandas</span><span>openpyxl</span></div>
+                    <a href="https://github.com/EkhsanFitri94/UCES-Margin-Analyzer" class="project-link" target="_blank">GitHub →</a>
+                </article>
+            </div>
+            <div class="section-cta">
+                <a href="https://github.com/EkhsanFitri94?tab=repositories" class="btn btn-outline" target="_blank">See all 25+ projects →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Background</span>
+                <h2>Education & Experience</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Dec 2025 — Nov 2026</span>
+                        <h3>Project Admin (Contract), Procurement</h3>
+                        <p class="timeline-org">Universal Cellular Engineering Services Sdn Bhd</p>
+                        <ul>
+                            <li>Managing procurement documentation, reporting, and daily admin coordination</li>
+                            <li>Supporting purchase order, invoice, and vendor follow-up workflows</li>
+                            <li>Built internal tools for margin analysis and procurement tracking</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Jun — Nov 2025</span>
+                        <h3>Business Administration Intern</h3>
+                        <p class="timeline-org">UCES — Procurement Department</p>
+                        <ul>
+                            <li>Completed 6-month internship in procurement operations</li>
+                            <li>Identified process inefficiencies and proposed automation solutions</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2022 — 2026</span>
+                        <h3>BBA (Hons) Artificial Intelligence</h3>
+                        <p class="timeline-org">Universiti UniRazak KL, Malaysia</p>
+                        <ul>
+                            <li>Major in Artificial Intelligence with business application focus</li>
+                            <li>25+ projects across Python, ML, data analytics, and web development</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get In Touch</span>
+                <h2>Let's build something together</h2>
+                <p>I'm open to opportunities, collaborations, and conversations.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <div>
+                            <strong>Email</strong>
+                            <a href="mailto:ekhsanfitri123@email.com">ekhsanfitri123@email.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">💻</span>
+                        <div>
+                            <strong>GitHub</strong>
+                            <a href="https://github.com/EkhsanFitri94" target="_blank">github.com/EkhsanFitri94</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">🌐</span>
+                        <div>
+                            <strong>Portfolio</strong>
+                            <a href="https://ekhsanfitri94.github.io/portfolio_ekhsan/" target="_blank">ekhsanfitri94.github.io/portfolio_ekhsan</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <div>
+                            <strong>Location</strong>
+                            <span>Kuala Lumpur, Malaysia</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="4" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Send Message ✉️</button>
+                    <p class="form-note">This is a demo form. Reach me via email for real inquiries.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="nav-logo">EF<span class="dot">.</span></a>
+                    <p>Building practical tools at the intersection of AI, business, and procurement.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Ekhsan Fitri. Built from scratch with ❤️</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
