@@ -14,15 +14,17 @@ Modern, responsive personal landing page built with pure HTML, CSS & JavaScript.
 - 🚀 Zero dependencies — pure HTML/CSS/JS
 - 🔍 SEO-friendly meta tags
 
-## 🚀 Quick Start
+## 📸 Demo
 
-```bash
-git clone https://github.com/EkhsanFitri94/personal-website.git
-cd personal-website
-# Open index.html in browser — that's it!
-```
+**Live:** [ekhsanfitri94.github.io/personal-website](https://ekhsanfitri94.github.io/personal-website)
 
-Or deploy to GitHub Pages / Netlify / Vercel in one click.
+**Features visible:**
+- 🎨 Dark/light theme toggle
+- ⌨️ "I build AI-powered tools 🤖" typing animation
+- 📊 Animated skill progress bars
+- ✨ Cards reveal on scroll
+- 📱 Fully responsive (mobile-friendly)
+- 🧭 Sticky navbar with active section highlight
 
 ## 📂 Structure
 
